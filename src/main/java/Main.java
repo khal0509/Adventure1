@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Userinterface userinterface = new Userinterface();
+        UserInterface userInterface = new UserInterface(); //Metode kald, kaldes på User... klassen
+        userInterface.startProgram();
     }
 }
